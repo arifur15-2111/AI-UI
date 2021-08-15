@@ -42,32 +42,32 @@ a{
     margin-top: 5px;
     padding: 10px 0;
 }
-.officer-container{
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 10px;
-}
 .student-container{
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
 }
-.officer{
+.officer-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.student{
     width:60%;
-    background-color: whitesmoke;
+background-color: lightblue;
     margin-bottom: 10px;
     border-radius: 10px;
 }
-.officer p{
+.student p{
     padding: 10px 20px;
 }
-.student{
-    background-color: lightblue;
+.officer{
+    background-color: whitesmoke;
     width:60%;
     border-radius: 10px;
     margin-top: 5px;
 }
-.student p{
+.officer p{
     padding: 10px 20px;
 }
 .time-container{
