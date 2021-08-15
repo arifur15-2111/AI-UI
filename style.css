@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.chat-box{
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(.0, .0, .0, 0.2);
+}
+.top-box{
+    border-radius: 10px 10px 0 0;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgba(.0, .0, .0, 0.1);
+}
+.img{
+    height: 40px;
+    width: 40px;
+    padding-right: 5px;
+}
+.img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.coversation{
+    overflow-y: scroll;
+    height: 600px;    
+}
+.single-conversation{
+    width: 500px;
+    margin-top: 5px;
+    padding: 10px 0;
+}
+.officer-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.student-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.officer{
+    width:60%;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.officer p{
+    padding: 10px 20px;
+}
+.student{
+    background-color: lightblue;
+    width:60%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.student p{
+    padding: 10px 20px;
+}
+.time-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    color: gray;
+}
+.message-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 2px 2px 20px rgba(.0, .0, .0, 0.2);
+    width: 100%;
+}
+.message-box input{
+    border: none;
+    width: 450px;
+    height: 30px;
+}
+.message-box i{
+    cursor: pointer;
+}
+.message-box i:hover{
+    color: lightblue;
+}
+.message-box input:focus{
+    outline: none;
+}
